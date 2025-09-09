@@ -1,6 +1,14 @@
 
 version: 2
 
+sources:
+  - name: raw
+    schema: main
+    tables:
+      - name: customers
+      - name: orders
+      - name: order_items
+
 models:
   - name: my_first_dbt_model
     description: "A starter dbt model"
@@ -19,3 +27,15 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: stg_customers
+    description: "Cleaned up customers data"
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+  - name: stg_orders
+    description: "Orders with cleaned fields"
+  - name: stg_order_items
+    description: "Order items details"
