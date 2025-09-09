@@ -1,0 +1,31 @@
+[0m01:53:52.037176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e17f5c8f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e1633f200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e16575730>]}
+
+
+============================== 01:53:52.042528 | 551e0f4c-71f9-468a-b076-d57fcbb643dc ==============================
+[0m01:53:52.042528 [info ] [MainThread]: Running with dbt=1.10.11
+[0m01:53:52.043351 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'introspect': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'debug': 'False', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'empty': 'None', 'write_json': 'True', 'use_colors': 'True', 'warn_error': 'None', 'fail_fast': 'False', 'invocation_command': 'dbt init dbtCustomerOrders', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'partial_parse': 'True', 'profiles_dir': '/home/gitpod/.dbt', 'log_cache_events': 'False', 'version_check': 'True', 'quiet': 'False'}
+[0m01:53:52.054913 [info ] [MainThread]: Creating dbt configuration folder at /home/gitpod/.dbt
+[0m01:53:52.056631 [debug] [MainThread]: Starter project path: /workspace/.pyenv_mirror/user/current/lib/python3.12/site-packages/dbt/include/starter_project
+[0m01:53:52.060663 [info ] [MainThread]: 
+Your new dbt project "dbtCustomerOrders" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:53:52.061226 [info ] [MainThread]: Setting up your profile.
+[0m01:53:55.041586 [info ] [MainThread]: Profile dbtCustomerOrders written to /home/gitpod/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m01:53:55.043795 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 3.082945, "process_in_blocks": "29136", "process_kernel_time": 0.353184, "process_mem_max_rss": "117740", "process_out_blocks": "72", "process_user_time": 3.479673}
+[0m01:53:55.044730 [debug] [MainThread]: Command `dbt init` succeeded at 01:53:55.044582 after 3.08 seconds
+[0m01:53:55.045297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e183f1d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e1597a9c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8e1597a960>]}
+[0m01:53:55.045889 [debug] [MainThread]: Flushing usage events
+[0m01:53:55.659204 [debug] [MainThread]: An error was encountered while trying to flush usage events
